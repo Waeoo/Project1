@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
 }
 
-#wrap-area {
+#header-area {
     max-width: 960px;
     margin: 0 auto;
     background-color: saddlebrown;
@@ -55,4 +55,19 @@ h1, h2 {
 #menu a {
     text-decoration: none;
 
+}
+
+#middle-area {
+    max-width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: salmon;
+}
+
+#footer-area {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: saddlebrown;
+    padding: 32px;
 }
