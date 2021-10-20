@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +8,51 @@
 
 body {
     font-weight: 300;
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #7f1519;
 }
 
 /* Header and logo*/
 h1, h2 {
     color: #006d35;
+    font-family: Montserrat, sans-serif;
+}
+
+#wrap-area {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: saddlebrown;
+    padding: 32px;
 }
 
 #logo {
+    margin-top: 30px;
     float: none;
     font-size: 280%;
     position: relative;
-    left: 30%;
+    text-align: center;
+}
+
+/* Navigation */
+
+#menu {
+    padding: 5px 0 5px 0;
+    font-size: 120%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 32px;
+}
+
+#menu ul {
+    margin-top: 15px;
+}
+#menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    letter-spacing: 3px;
+}
+
+#menu a {
+    text-decoration: none;
+
 }
