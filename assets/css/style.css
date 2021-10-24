@@ -67,7 +67,7 @@ ul {
 /* middle */
 
 #background {
-    height: 680px;
+    height: auto;
     width: 100%;
     background: url("/assets/images/adaptogens.jpg") no-repeat center center fixed;
 }
@@ -76,7 +76,6 @@ ul {
     width: 100%;
     max-width: 956px;
     height: 612px;
-    max-width: fit-content;
     margin: 0 auto;
     padding: 32px;
     background-color: rgba(255, 255, 255, 0.65);
@@ -85,11 +84,11 @@ ul {
 }
 
 #middle-text-area {
-    padding: 32px;
+    /* padding: 32px; */
 }
 
 #middle-text-area h1 {
-    font-size: 48px;
+    font-size: 40px;
     color: black;
 }
 
@@ -106,4 +105,12 @@ p {
     padding: 32px;
     position: relative;
     bottom:0;
+}
+
+/* small screen sizes 768px and down */
+@media screen and (max-width: 768px) {
+    
+    #middle-area {
+        max-width: 100%;
+    }
 }
