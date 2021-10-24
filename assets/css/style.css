@@ -9,7 +9,6 @@
 body {
     font-weight: 300;
     font-family: Montserrat, sans-serif;
-    color: #7f1519;
 }
 
 /* Header and logo*/
@@ -19,6 +18,7 @@ h1, h2 {
 }
 
 #header-area {
+    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
@@ -35,6 +35,13 @@ h1, h2 {
 
 /* Navigation */
 
+nav {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+}
+
 #menu {
     padding: 5px 0 5px 0;
     font-size: 120%;
@@ -43,7 +50,7 @@ h1, h2 {
     line-height: 32px;
 }
 
-#menu ul {
+ul {
     margin-top: 15px;
 }
 
@@ -60,24 +67,43 @@ h1, h2 {
 /* middle */
 
 #background {
-    height: 960px;
+    height: 680px;
     width: 100%;
-    background: url("/assets/images/adaptogens.jpg") no-repeat center center;
+    background: url("/assets/images/adaptogens.jpg") no-repeat center center fixed;
 }
 
 #middle-area {
-    max-width: 960px;
-    height: 894px;
+    width: 100%;
+    max-width: 956px;
+    height: 612px;
+    max-width: fit-content;
     margin: 0 auto;
     padding: 32px;
-    background-color: #fff;
-    opacity: 65%;
+    background-color: rgba(255, 255, 255, 0.65);
     border: 2px solid #e84610;
+    overflow: auto;
+}
+
+#middle-text-area {
+    padding: 32px;
+}
+
+#middle-text-area h1 {
+    font-size: 48px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 #footer-area {
+    width: 100%;
     max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
     padding: 32px;
+    position: relative;
+    bottom:0;
 }
