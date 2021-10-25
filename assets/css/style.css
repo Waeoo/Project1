@@ -70,23 +70,21 @@ ul {
     text-decoration: none;
 
 }
-/* middle */
+
+/* middle part */
 
 #background {
-    height: auto;
     width: 100%;
+    max-width: 956px;
+    margin: 0 auto;
+    border: 2px solid #e84610;
     background: url("/assets/images/adaptogens.jpg") no-repeat center center fixed;
 }
 
-#middle-area {
-    width: 100%;
-    max-width: 956px;
+#middle-area {    
     height: 612px;
-    margin: 0 auto;
     padding: 32px 0 32px 0;
     background-color: rgba(255, 255, 255, 0.65);
-    border: 2px solid #e84610;
-    overflow: auto;
 }
 
 #middle-text-area {
@@ -117,6 +115,8 @@ p {
     position: relative;
     bottom:0;
 }
+
+/* social media icons and links in footer */
 
 .social-link {
     text-align: center;
