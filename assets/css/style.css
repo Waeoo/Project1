@@ -23,7 +23,7 @@ h1, h2 {
     max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
-    padding: 32px;
+    padding: 32px 0 32px 0;
 }
 
 #logo {
@@ -83,7 +83,7 @@ ul {
     max-width: 956px;
     height: 612px;
     margin: 0 auto;
-    padding: 32px;
+    padding: 32px 0 32px 0;
     background-color: rgba(255, 255, 255, 0.65);
     border: 2px solid #e84610;
     overflow: auto;
@@ -100,7 +100,7 @@ ul {
 }
 
 .middle-text {
-    text-align: left;
+    margin-left: 32px;
 }
 
 p {
@@ -113,7 +113,7 @@ p {
     max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
-    padding: 32px;
+    padding: 22px 0 22px 0;
     position: relative;
     bottom:0;
 }
