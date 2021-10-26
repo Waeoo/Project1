@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,9 +19,8 @@ h1, h2 {
     
 }
 
-#header-area {
+header {
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
     padding: 32px 0 32px 0;
@@ -43,7 +43,6 @@ a {
 nav {
     margin: 0 auto;
     width: 100%;
-    max-width: 960px;
     text-align: center;
 }
 
@@ -73,17 +72,17 @@ ul {
 
 /* middle part */
 
-#background {
+section {
     width: 100%;
-    max-width: 956px;
-    margin: 0 auto;
-    border: 2px solid #e84610;
     background: url("../images/adaptogens.jpg") no-repeat center center fixed;
 }
 
 #middle-area {
     padding: 32px 0 32px 0;
     background-color: rgba(255, 255, 255, 0.65);
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #e84610;
 }
 
 #middle-text-area {
@@ -97,7 +96,7 @@ ul {
 }
 
 .middle-text {
-    margin-left: 32px;
+    margin: 0 1em;
 }
 
 p {
@@ -105,9 +104,8 @@ p {
     font-weight: 600;
 }
 
-#footer-area {
+footer {
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
     background-color: #006d35;
     padding: 22px 0 22px 0;
@@ -132,9 +130,21 @@ p {
 }
 
 /* small screen sizes 768px and down */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 601px) {
     
+    header,
+    nav,
+    footer,
     #middle-area {
-        max-width: 100%;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    header,
+    nav,
+    footer,
+    #middle-area {
+        width: 75%;
     }
 }
