@@ -20,6 +20,12 @@ h1, h2 {
     
 }
 
+h3 {
+    font-family: Montserrat, sans-serif;
+    color: red;
+    margin: -10px;
+}
+
 p {
     font-size: 16px;
     font-weight: 600;
@@ -55,7 +61,7 @@ nav {
 
 #menu {
     padding: 5px 0 5px 0;
-    font-size: 130%;
+    font-size: 150%;
     font-weight: bold;
     margin-top: 30px;
     text-align: center;
@@ -83,7 +89,19 @@ ol {
 
 #menu a {
     text-decoration: none;
+}
 
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color:#e84610;
+    text-decoration: none;
 }
 
 /* middle part */
@@ -147,14 +165,11 @@ footer {
 
 .form-area {
     border: 2px solid Gray;
-    width: 50%;
+    width: 60%;
     height: 50%;
     text-align: left;
     padding: 10px;
     margin: 0 auto;
-}
-
-.signup-form {
 }
 
 .text-input {
