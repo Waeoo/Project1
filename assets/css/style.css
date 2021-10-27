@@ -16,7 +16,14 @@ body {
 h1, h2 {
     color: #006d35;
     font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
     
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
 }
 
 header {
@@ -108,17 +115,13 @@ section {
     margin: 0 1em;
 }
 
-p {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px;
-}
+
 
 footer {
     width: 100%;
     margin: 0 auto;
     background-color: #006d35;
-    padding: 22px 0 22px 0;
+    padding: 12px 0 12px 0;
     position: relative;
     bottom:0;
 }
@@ -138,6 +141,63 @@ footer {
     margin: 1%;
     color: #ffffff;
 }
+
+
+/* contact form */
+
+.form-area {
+    border: 2px solid Gray;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.signup-form {
+}
+
+.text-input {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    width: 50%;
+    height: 25px;
+    padding: 12px 12px;
+    margin: 5px 0 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8; 
+}
+
+.text-area {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 150px;
+    padding: 12px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;   
+  }
+
+  .send-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #006d35;
+    color: #fafafa;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .send-button:hover {
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid #e84610;
+    padding: 13px 30px;
+  }
 
 /* small screen sizes 768px and down */
 @media screen and (min-width: 601px) {

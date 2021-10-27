@@ -44,10 +44,32 @@
             <div id="middle-text-area">
                 <h1>Contact</h1>
             </div>
-            <div class="middle-text">
+            <div class="middle-text, form-area">
                 <p>
-                    Please fill out this form in order to get in contact with your questions or comments. 
+                    Please fill out this form in order to get in contact with your questions or comments.
                 </p>
+                <hr>
+                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                    <p>
+                        <label for="fname" aria-label="First name required">First Name:</label>
+                        <input class="text-input" type="text" id="fname" name="first_name" required>
+                    </p>
+                    <p>
+                        <label for="lname" aria-label="Last name required">Last Name:</label>
+                        <input class="text-input" type="text" id="lname" name="last_name" required>
+                    </p>
+                    <p>
+                        <label for="email" aria-label="E-mail address required">Email Address:</label>
+                        <input class="text-input" type="email" id="email" name="email_address" required>
+                    </p>
+                    <p>
+                        <label for="message" aria-label="Message required">Message:</label>
+                        <textarea class="text-area" id="message" name="comment" form="usrform" placeholder="Type your message here" required></textarea>
+                    </p>
+                    <p>
+                        <input class="send-button" type="submit" value="Send message!">
+                    </p>
+                </form>
             </div>
         </section>
 
