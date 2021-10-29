@@ -8,11 +8,11 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 
 ## UX
 
-Design concept text
+Design concept was chosen in relation to the adaptogens book and the sites purpose of being in an informative direction.
 
 ### Color Scheme
 
-Describe color scheme `#ffffff`
+Describe color scheme `#e84610`, `#006d35`, `#ffffff`, `red`, `black`
 
 ### Typography
 
