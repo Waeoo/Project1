@@ -70,6 +70,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -81,28 +83,80 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- HTML Validation (w3c)
+
+  - [index.html](https://validator.w3.org/nu/?doc=https://waeoo.github.io/adaptogens/index.html)
+  - ![index](documentation/testing/index_validation.png)
+
+  - [adaptogens.html](https://validator.w3.org/nu/?doc=https://waeoo.github.io/adaptogens/adaptogens.html)
+  - ![adaptogens](documentation/testing/adaptogens_validation.png)
+
+  - [about.html](https://validator.w3.org/nu/?doc=https://waeoo.github.io/adaptogens/about.html)
+  - ![about](documentation/testing/about_validation.png)
+
+  - [contact.html](https://validator.w3.org/nu/?doc=https://waeoo.github.io/adaptogens/contact.html)
+  - ![contact](documentation/testing/contact_validation.png)
+
+- CSS (w3c)
+
+  - [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwaeoo.github.io%2Fadaptogens&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - ![style](documentation/testing/css_validation.png)
+
+### Fixed Bugs
+
+Random error on contact page that gave error 404.
+
+![Error 404](documentation/testing/error_404.png)
+
+To fix it I added `.html` to the adaptogens link to contact page.
 
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
+### Browser compatibility
+
+Chrome index
+- ![style](documentation/testing/css_validation.png)
+chrome_index.png
+
+Brave adaptogens
+
+Firefox about
+
+Edge Contact
+
+### Responsiveness
+
+Desktop index
+
+Tablet adaptogens
+
+Mobile about
+
+Real life phone Samsung Internet Contact
+
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the [GitHub repository](https://github.com/Waeoo/adaptogens), navigate to the Settings tab.
+    * From the Settings tab, scroll down until you see the 'Pages' button on the left.
+    * From the Source section drop-down menu, select the `Main` branch.
+    * Once the `Main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The live link can be found here - https://waeoo.github.io/adaptogens
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+### Local Deployment
+
+To make a local copy of this project, you can clone it by typing the following in your IDE terminal:
+
+- `git clone https://github.com/Waeoo/adaptogens.git`
+
+Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/Waeoo/adaptogens)
 
 
 ## Credits 
+
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
