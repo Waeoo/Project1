@@ -4,7 +4,33 @@ In this section, you will include one or two paragraphs providing an overview of
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+## UX
+
+Design concept text
+
+### Color Scheme
+
+Describe color scheme `#ffffff`
+
+### Typography
+
+I choose [Montserrat](https://fonts.google.com/specimen/Montserrat) due to the information purpose
+
+### Wireframes
+
+  - [index.html](https://waeoo.github.io/adaptogens/index.html)
+  - ![index](documentation/wireframes/home.png)
+
+  - [adaptogens.html](https://waeoo.github.io/adaptogens/adaptogens.html)
+  - ![adaptogens](documentation/wireframes/adaptogens.png)
+
+  - [about.html](https://waeoo.github.io/adaptogens/about.html)
+  - ![about](documentation/wireframes/about.png)
+
+  - [contact.html](https://waeoo.github.io/adaptogens/contact.html)
+  - ![contact](documentation/wireframes/contact.png)
 
 ## Features 
 
@@ -68,6 +94,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - Another feature idea
 
+More adaptogens
+
 ## Testing 
 
 
@@ -118,6 +146,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 Chrome index
 - ![style](documentation/testing/css_validation.png)
+
 chrome_index.png
 
 Brave adaptogens
