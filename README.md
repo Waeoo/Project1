@@ -1,22 +1,27 @@
 # Adaptogens
 
-This project was created in hope to provide initial knowledge about adaptogens and enlighten people about its existens, benefits and effects. The site is for anyone interested in learning about the different herbs, plants and spark interest to deepen the individuals further interest about adaptogens.
+- This project was created in hope to provide initial knowledge about adaptogens and enlighten people about its existens, benefits and effects. 
+- The site is for anyone interested in learning about the different herbs, plants and maybe spark some further interest to deepen the individuals knowledge about adaptogens.
 
 ![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## UX
 
-Design concept was chosen in relation to the adaptogens book and the sites purpose of being in an informative direction.
+- Design concept was chosen in relation to the Adaptogens book and the sites purpose of being in an informative direction.
 
 ### Color Scheme
 
-Describe color scheme `#e84610`, `#006d35`, `#ffffff`, `red`, `black`
+- Described color scheme for `#e84610`, `#006d35`, `#ffffff`, `red`, `black`.
+- Colors used for this project initally stem from the Adaptogens book and also from color tools to match eachother.
 
 ### Typography
 
-I choose [Montserrat](https://fonts.google.com/specimen/Montserrat) due to the information purpose
+- I choose [Montserrat](https://fonts.google.com/specimen/Montserrat) due to the information purpose font selection.
+- For the icons used I choose [FontAwesome](https://fontawesome.com/) for respective footer icon.
 
 ### Wireframes
+
+
 
   - [index.html](https://waeoo.github.io/adaptogens/index.html)
   - ![index](documentation/wireframes/home.png)
@@ -182,6 +187,10 @@ To make a local copy of this project, you can clone it by typing the following i
 Alternatively, if using Gitpod, you can click the green Gitpod button, or use [this link](https://gitpod.io/#https://github.com/Waeoo/adaptogens)
 
 
+## Technology Used
+
+The site Adaptogens was built using HTML5 and CSS3.
+
 ## Credits 
 
 
@@ -197,7 +206,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- The background photo used on the site come from [istockphoto](https://www.istockphoto.com/)
 - The images used for the gallery page were taken from this other open source site
 
 
