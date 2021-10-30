@@ -26,8 +26,6 @@ Friends
 
 ### Wireframes
 
-
-
   - [index.html](https://waeoo.github.io/adaptogens/index.html)
   - ![index](documentation/wireframes/home.png)
 
@@ -97,14 +95,7 @@ Features that is left to implement are:
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+Testing has been performed in browsers such as Chrome, Brave, Firefox and Edge using developer tools to check responsiveness. Review responses have been asked and recieved in relation to different iOS and Android devices. No issues reported. Validator testing and compatibilites are listed below.
 
 ### Validator Testing 
 
@@ -142,26 +133,38 @@ At the moment there are no unfixed bugs discovered.
 ### Browser compatibility
 
 - Chrome
-![style](documentation/testing/chrome_index.png)
+
+![chrome](documentation/testing/chrome_index.png)
 
 - Brave
-![style](documentation/testing/brave_adaptogens.png)
+
+![brave](documentation/testing/brave_adaptogens.png)
 
 - Firefox
-![style](documentation/testing/firefox_about.png)
+
+![firefox](documentation/testing/firefox_about.png)
 
 - Edge
-![style](documentation/testing/edge_contact.png)
+
+![edge](documentation/testing/edge_contact.png)
 
 ### Responsiveness
 
-Desktop index
+- Desktop
 
-Tablet adaptogens
+![desktop](documentation/testing/chrome_index.png)
 
-Mobile about
+- Tablet
 
-Real life phone Samsung Internet Contact
+![tablet](documentation/testing/table_ipad_pro.png)
+
+- Mobile
+- Real life phone Samsung Internet on Samsung Galaxy S8+
+
+![home_page](documentation/testing/samsung_internet_home_page.jpg)
+![home_page_bottom](documentation/testing/samsung_internet_home_page_bottom.jpg)
+![adaptogens_upper](documentation/testing/samsung_internet_adaptogens_upper.jpg)
+![adaptogens_picture](documentation/testing/samsung_internet_adaptogens_picture.jpg)
 
 ## Deployment
 
