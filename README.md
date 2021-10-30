@@ -101,8 +101,6 @@ More adaptogens
 
 ## Testing 
 
-
-
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -147,16 +145,17 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ### Browser compatibility
 
-Chrome index
-- ![style](documentation/testing/css_validation.png)
+- Chrome
+![style](documentation/testing/chrome_index.png)
 
-chrome_index.png
+- Brave
+![style](documentation/testing/brave_adaptogens.png)
 
-Brave adaptogens
+- Firefox
+![style](documentation/testing/firefox_about.png)
 
-Firefox about
-
-Edge Contact
+- Edge
+![style](documentation/testing/edge_contact.png)
 
 ### Responsiveness
 
