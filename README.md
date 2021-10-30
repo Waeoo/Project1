@@ -1,9 +1,10 @@
 # Adaptogens
 
 - This project was created in hope to provide initial knowledge about adaptogens and enlighten people about its existens, benefits and effects. 
+
 - The site is for anyone interested in learning about the different herbs, plants and maybe spark some further interest to deepen the individuals knowledge about adaptogens.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](documentation/testing/adaptogens_mockup.png)
 
 ## UX
 
