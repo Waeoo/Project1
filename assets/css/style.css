@@ -105,6 +105,12 @@ a:hover {
     text-decoration: none;
 }
 
+
+.home-image {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
 /* middle part */
 
 main {
@@ -149,7 +155,7 @@ section {
 hr {
     margin: 1em auto;
     width: 90%;
-    height: 5px;
+    height: 4px;
     text-align: center;
     background-color: #e84610;
 }
@@ -273,22 +279,21 @@ footer {
 
 
 @media screen and (min-width: 601px) {
-
     header,
     nav,
     footer,
-    section {
+    section
+    {
         width: 80%;
     }
-
 }
 
 @media screen and (min-width: 993px) {
-
     header,
     nav,
     footer,
-    section {
+    section
+    {
         width: 75%;
     }
 
