@@ -114,7 +114,7 @@ main {
 
 section {
     padding: 32px 0 32px 0;
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.75);
     width: 100%;
     margin: 0 auto;
     border: 2px solid #e84610;
@@ -149,9 +149,9 @@ section {
 hr {
     margin: 1em auto;
     width: 90%;
-    height: 10px;
+    height: 5px;
     text-align: center;
-    background-color: orange;
+    background-color: #e84610;
 }
 
 .container {
@@ -185,7 +185,9 @@ figure {
 
 .picture-area {
     text-align: center;
-    background: rgba(255, 255, 255, 0.65);
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid #e84610;
+    border-radius: 5px;
 }
 
 /* footer area */
@@ -269,7 +271,7 @@ footer {
     padding: 13px 30px;
 }
 
-/* small screen sizes 768px and down */
+
 @media screen and (min-width: 601px) {
 
     header,
