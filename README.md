@@ -4,7 +4,7 @@
 
 - The site is for anyone interested in learning about the different herbs, plants and maybe spark some further interest to deepen the individuals knowledge about adaptogens.
 
-![Responsive Mockup](documentation/testing/adaptogens_mockup.png)
+![Responsive Mockup](documentation/testing/adaptogens_mockup_resp.png)
 
 ## User Stories
 
