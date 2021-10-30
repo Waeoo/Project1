@@ -6,6 +6,10 @@
 
 ![Responsive Mockup](documentation/testing/adaptogens_mockup.png)
 
+## User Stories
+
+Friends 
+
 ## UX
 
 - Design concept was chosen in relation to the Adaptogens book and the sites purpose of being in an informative direction.
@@ -13,7 +17,7 @@
 ### Color Scheme
 
 - Described color scheme for `#e84610`, `#006d35`, `#ffffff`, `red`, `black`.
-- Colors used for this project initally stem from the Adaptogens book and also from color tools to match eachother.
+- Colors used for this project initally stem from the Adaptogens book and also from color tools [Color Tool](https://material.io/) to match eachother.
 
 ### Typography
 
@@ -36,69 +40,60 @@
   - [contact.html](https://waeoo.github.io/adaptogens/contact.html)
   - ![contact](documentation/wireframes/contact.png)
 
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Features
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo and back to home page, adaptogens, about and contact, is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](documentation/testing/nav.png)
 
-- __The landing page image__
+- __The Home page and welcome message__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The home page include a welcoming message and a picture of the Adaptogens book.
+  - This section introduces the user to show that this site is a reference to the Adaptogens book and the research about adaptogens.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home Page](documentation/testing/welcome.png)
 
-- __Club Ethos Section__
+- __The Adaptogens page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The adaptogens page will allow the user to read and learn about the different well-researched adaptogens listed. 
+  - The user will find valueable information about the nine different adaptogens listed in order to spark intrest about one or more adaptogens. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Adaptogens page](documentation/testing/adaptogens_page.png)
 
-- __Meetup Times section__
+- __The About page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This page inform what the site is about and what categorizes as an adaptogen via the three listed conclusions and what correlates to their usaged profile. 
+  - This page will be updated if any adaptogen scope is revised by the scientific research to present an updated approach. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![About page](documentation/testing/about_page.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Adaptogens. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and continue learning more about adaptogens.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](documentation/testing/adaptogens_footer.png)
 
-- __Gallery__
+- __The Contact page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This page will allow the user to send comments or questions about the site, adaptogens and other inquiries. The user will be asked to submit their first name, last name, email address and write their message. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact page](documentation/testing/contact_page.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+Features that is left to implement are:
 
-More adaptogens
+- Category, probable adaptogens
+
+- Cateogry, possible adaptogens
+
+- History, usage and interactions with the human body
 
 ## Testing 
 
@@ -142,7 +137,7 @@ To fix it I added `.html` to the adaptogens link to contact page.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+At the moment there are no unfixed bugs discovered. 
 
 ### Browser compatibility
 
@@ -193,38 +188,19 @@ The site Adaptogens was built using HTML5 and CSS3.
 
 ## Credits 
 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- Adaptogens information is credited to David Winston and his book Adaptogens.
+- Research and code solutions, stackoverflow and w3schools were generally relied upon.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The background photo used on the site come from [istockphoto](https://www.istockphoto.com/)
-- The images used for the gallery page were taken from this other open source site
+- The images used for the adaptogens page come from [istockphoto](https://www.istockphoto.com/) and [pngtree](https://pngtree.com/).
+ 
 
+### Acknowledgements
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- Tim Nelson - Code Institute mentor who explained and guidance supported me effectively and with precision.
+- Mr. P - Tester and presenting different approaches and solutions.
