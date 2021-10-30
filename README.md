@@ -224,3 +224,4 @@ The site Adaptogens was built using HTML5 and CSS3.
 
 - Tim Nelson - Code Institute mentor who explained and guidance supported me effectively and with precision.
 - Mr. P - Tester and presenting different approaches and solutions.
+- Love running project for inspiration
