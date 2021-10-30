@@ -8,7 +8,13 @@
 
 ## User Stories
 
-Friends 
+- As a new visitor visiting the site I want to early know what the site is about and refering to and to quickly discern if it is suitable for what I'm after.
+
+- As a general visitor I want swift navigation and to the parts of releveance. 
+Learn and study the information provided and easily find the websites social links.
+Be able to contact anyone behind the website.
+
+- As a returning visitor I want to see any updated information and be able to contact anyone behind the website.
 
 ## UX
 
@@ -27,16 +33,16 @@ Friends
 ### Wireframes
 
   - [index.html](https://waeoo.github.io/adaptogens/index.html)
-  - ![index](documentation/wireframes/home.png)
+  ![index](documentation/wireframes/home.png)
 
   - [adaptogens.html](https://waeoo.github.io/adaptogens/adaptogens.html)
-  - ![adaptogens](documentation/wireframes/adaptogens.png)
+  ![adaptogens](documentation/wireframes/adaptogens.png)
 
   - [about.html](https://waeoo.github.io/adaptogens/about.html)
-  - ![about](documentation/wireframes/about.png)
+  ![about](documentation/wireframes/about.png)
 
   - [contact.html](https://waeoo.github.io/adaptogens/contact.html)
-  - ![contact](documentation/wireframes/contact.png)
+  ![contact](documentation/wireframes/contact.png)
 
 ## Features
 
@@ -158,13 +164,16 @@ At the moment there are no unfixed bugs discovered.
 
 ![tablet](documentation/testing/table_ipad_pro.png)
 
-- Mobile
-- Real life phone Samsung Internet on Samsung Galaxy S8+
+- Mobile - Real life phone Samsung Internet on Samsung Galaxy S8+
 
 ![home_page](documentation/testing/samsung_internet_home_page.jpg)
 ![home_page_bottom](documentation/testing/samsung_internet_home_page_bottom.jpg)
 ![adaptogens_upper](documentation/testing/samsung_internet_adaptogens_upper.jpg)
 ![adaptogens_picture](documentation/testing/samsung_internet_adaptogens_picture.jpg)
+
+### Tested User Stories
+
+
 
 ## Deployment
 
